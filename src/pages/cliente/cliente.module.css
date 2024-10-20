@@ -1,0 +1,131 @@
+html{
+    font-size: 62.5%;
+    background-color: #B5CDDE;
+}
+  
+.Root {
+    width: 144rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Conteudo {
+    width: 1392px;
+    height: 700px;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow:0px 5px 10px #888888;
+}
+
+.Titulo {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.Form {
+    padding: 32px;
+}
+
+::-webkit-input-placeholder  { 
+    color:#888888;
+    font-size: 16px;
+    margin-left: 14px;
+    padding-left: 10px;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #888888;
+}
+
+.Nome {
+    width: 700px;
+    height: 32px;
+}
+
+.Cpf {
+    width: 200px;
+    height: 32px;
+    margin-left: 24px;
+}
+
+.Endereco {
+    width: 850px;
+    height: 32px;
+    margin-top: 48px;
+}
+
+.Numero {
+    width: 120px;
+    height: 32px;
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.Cep {
+    width: 200px;
+    height: 32px;
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.Bairro {
+    width: 600px;
+    height: 32px;
+    margin-top: 48px;
+}
+
+.Cidade {
+    width: 450px;
+    height: 32px;
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.Estado {
+    width: 180px;
+    height: 32px;
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.Email {
+    width: 600px;
+    height: 32px;
+    margin-top: 48px;
+}
+
+.Contato {
+    width: 300px;
+    height: 32px;
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.Botoes{
+    margin-left: 300px;
+}
+
+.Botao {
+    background-color: #ECCD2E;
+    color: #917E1C;
+    width: 160px;
+    height: 42px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 24px;
+    margin-top: 180px;
+}
+
+.Botao:hover {
+    background-color: #917E1C;
+    color: #ECCD2E;
+}

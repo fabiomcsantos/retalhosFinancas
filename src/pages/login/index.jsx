@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react';
 import styles from './login.module.css';
+import { Link } from 'react-router-dom';
 
 
 function Login() {
@@ -12,7 +13,7 @@ function Login() {
           <input className={styles.usuario} type="text" id="usuario" placeholder="Usuário" required />
           <input className={styles.senha} type="password" id="senha" placeholder="Senha" required />
           <div className={styles.BotaoContainer}>
-            <button type="submit" className={styles.Botao}>Entrar</button>
+            <Link to="/Menu"><button type="submit" className={styles.Botao}>Entrar</button></Link>
           </div>
           <div id="mensagemErro" className={styles.Erro} style={{ display: 'none' }}>
             Usuário ou senha incorretos!

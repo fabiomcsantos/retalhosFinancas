@@ -1,0 +1,86 @@
+html{
+    font-size: 62.5%;
+    background-color: #B5CDDE;
+}
+  
+.Root {
+    width: 144rem;
+    margin: 0;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Conteudo {
+    width: 1400px;
+    height: 750px;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow:0px 5px 10px #888888;
+}
+
+.Titulo {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.Form {
+    margin: 30px;
+    background-color: white;
+    width: 1300px;
+    height: 480px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #888888;
+    padding-left: 42px;
+    padding-top: 16px;
+}
+
+.LinhaCabecalho {
+    display: flex;
+    flex-direction: row;
+    padding-left: 86px;
+    margin-bottom: 24px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    padding-right: 92px;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #888888;
+    width: 24px;
+    height: 24px;
+
+}
+
+.Botoes{
+    margin-left: 800px;
+}
+
+.Botao {
+    background-color: #ECCD2E;
+    color: #917E1C;
+    width: 160px;
+    height: 42px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.Botao:hover {
+    background-color: #917E1C;
+    color: #ECCD2E;
+}

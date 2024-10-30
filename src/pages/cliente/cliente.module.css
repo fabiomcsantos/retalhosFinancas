@@ -6,16 +6,16 @@ html{
 .Root {
     width: 144rem;
     margin: 0;
-    padding: 0;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 .Conteudo {
-    width: 1392px;
+    width: 1400px;
     height: 700px;
     background-color: #F2F2F2;
     margin-top: 60px;
-    margin-left: 20px;
+    margin-left: 16px;
     margin-bottom: 30px;
     border-radius: 5px;
     box-shadow:0px 5px 10px #888888;
@@ -28,7 +28,16 @@ html{
 }
 
 .Form {
-    padding: 32px;
+    margin: 30px;
+    background-color: white;
+    width: 1290px;
+    height: 460px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #888888;
+    padding-left: 42px;
+    padding-top: 36px;
 }
 
 ::-webkit-input-placeholder  { 
@@ -36,6 +45,11 @@ html{
     font-size: 16px;
     margin-left: 14px;
     padding-left: 10px;
+}
+
+input:focus {
+    border-color: #ECCD2E;
+    outline: none;
 }
 
 input {
@@ -90,7 +104,7 @@ input {
 }
 
 .Estado {
-    width: 180px;
+    width: 140px;
     height: 32px;
     margin-left: 24px;
     margin-top: 48px;
@@ -122,7 +136,7 @@ input {
     border-radius: 5px;
     border: none;
     margin-left: 24px;
-    margin-top: 180px;
+    margin-top: 12px;
 }
 
 .Botao:hover {

@@ -1,20 +1,24 @@
 import React, {useEffect, useState, useRef} from 'react';
 import styles from './menu.module.css';
-import Header from '../../components/header/index';
-
+import { Link } from 'react-router-dom';
 
 
 
 function Menu() {
-
+  
   return (
-
     <div>
-        <Header/>
-        <div className={styles.Root}>
-        </div>
+    <div className={styles.Root}>
+      <main className={styles.Conteudo}>
+        <div className={styles.logo}><img className={styles.foto} src=".././public/images/retalhosFinancas.png" alt="" /></div>
+          <div className={styles.BotaoContainer}>
+            <Link to="/Cliente"><button className={styles.Botao}>Clientes</button></Link>
+            <Link to="/Estoque"><button className={styles.Botao}>Estoque</button></Link>
+          </div>
+      </main>
     </div>
- )
+    </div>
+  )
 }
 
-export default Menu
+export default Menu;

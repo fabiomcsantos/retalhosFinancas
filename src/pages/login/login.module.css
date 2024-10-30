@@ -1,11 +1,102 @@
-html{
-    font-size: 62.5%;
-  }
-  
-  .Root {
-    width: 144rem;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #B5CDDE;
-  }
+html {
+  font-size: 62.5%;
+  background-color: #B5CDDE;
+}
+
+.Root {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  margin-top: 32px;
+  font-size: 16px;
+}
+
+.Conteudo {
+  max-width: 50%;
+  height: auto;
+  background-color: #F2F2F2;
+  margin: 6rem 0 3rem 25%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem #888888;
+  padding: 2rem;
+}
+
+.logo {
+  text-align: center;
+}
+
+.foto {
+  width: 250px;
+  height: 250px;
+}
+
+.Form {
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: 1px solid #888888;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 3.2rem;
+  margin-top: 1.6rem;
+  padding-left: 1rem;
+}
+
+input:focus {
+  border-color: #ECCD2E;
+  outline: none;
+}
+
+::-webkit-input-placeholder  { 
+  color:#888888;
+  font-size: 16px;
+  margin-left: 14px;
+  padding-left: 10px;
+}
+
+.usuario, .senha{
+  width: 500px;
+  height: 32px;
+  margin-bottom: 32px;
+}
+
+.BotaoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.4rem;
+}
+
+.Botao {
+  background-color: #ECCD2E;
+  color: #917E1C;
+  width: 16rem;
+  height: 4.2rem;
+  font-size: 2.4rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.Botao:hover {
+  background-color: #917E1C;
+  color: #ECCD2E;
+}
+
+.Botao:focus {
+  outline: 2px solid #ECCD2E;
+}
+
+.Erro {
+  color: red;
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+}

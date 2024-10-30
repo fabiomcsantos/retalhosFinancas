@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+    background-color: #B5CDDE;
+  }
+  
+  .Root {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 15rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  .Conteudo {
+    max-width: 50%;
+    height: auto;
+    background-color: #F2F2F2;
+    margin: 6rem 0 3rem 25%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem #888888;
+    padding: 2rem;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .foto {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .BotaoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.4rem;
+  }
+  
+  .Botao {
+    background-color: #ECCD2E;
+    color: #917E1C;
+    width: 16rem;
+    height: 4.2rem;
+    font-size: 2.4rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin:32px;
+  }
+  
+  .Botao:hover {
+    background-color: #917E1C;
+    color: #ECCD2E;
+  }
+  
+  .Botao:focus {
+    outline: 2px solid #ECCD2E;
+  }
